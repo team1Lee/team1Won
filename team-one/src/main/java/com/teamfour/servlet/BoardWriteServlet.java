@@ -17,6 +17,7 @@ public class BoardWriteServlet extends HttpServlet {
 		
 		RequestDispatcher dispatcher = req.getRequestDispatcher("/WEB-INF/views/board/write.jsp");
 		dispatcher.forward(req, resp);
+		System.out.println("test aa");
 	}
 	
 }
