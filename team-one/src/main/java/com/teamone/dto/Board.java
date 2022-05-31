@@ -1,4 +1,4 @@
-package com.teamfour.dto;
+package com.teamone.dto;
 
 import java.util.Date;
 import java.util.List;

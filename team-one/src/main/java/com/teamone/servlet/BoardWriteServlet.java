@@ -1,4 +1,4 @@
-package com.teamfour.servlet;
+package com.teamone.servlet;
 
 import java.io.IOException;
 
@@ -18,6 +18,7 @@ public class BoardWriteServlet extends HttpServlet {
 		RequestDispatcher dispatcher = req.getRequestDispatcher("/WEB-INF/views/board/write.jsp");
 		dispatcher.forward(req, resp);
 		System.out.println("test aa");
+		System.out.println("test cc");
 	}
 	
 }
